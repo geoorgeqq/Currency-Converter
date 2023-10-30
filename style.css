@@ -1,0 +1,57 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/31/95/08/319508db6748068814ff9753c85e658d.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+h1{
+    color: aliceblue;
+
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    margin: auto auto;
+    height: 744px;
+    justify-content: center;
+}
+
+.converter{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 120px 120px;
+    row-gap: 20px;
+    column-gap: 105px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.converter *{
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+
+.submited{
+    width: 200px;
+    border-radius: 15px;
+    background-color: #3e9c35;
+    border:1px solid black;
+    height: 35px;
+}
+
+.output_currency{
+    background: white;
+}
+
+.switchCurrency{
+    position: absolute;
+    left: 122px;
+    width:100px;
+}
