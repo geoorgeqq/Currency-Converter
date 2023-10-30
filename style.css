@@ -55,3 +55,10 @@ h1{
     left: 122px;
     width:100px;
 }
+
+
+@media only screen and (min-width: 768px){
+    body{
+        background-size: cover;
+    }
+}
